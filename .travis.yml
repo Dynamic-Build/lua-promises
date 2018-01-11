@@ -1,0 +1,19 @@
+language: ruby
+
+sudo: false
+
+env:
+  matrix:
+    - LUA=lua5.1
+    - LUA=lua5.2
+    - LUA=luajit-2.0.0-beta9
+
+addons:
+  apt:
+    packages:
+      - lua5.1
+      - lua5.2
+      - luajit
+
+script:
+  - $LUA deferred_test.lua
