@@ -1,6 +1,6 @@
 # lua-promises
 
-[![Build Status](https://travis-ci.org/zserge/lua-promises.svg)](https://travis-ci.org/zserge/lua-promises)
+[![Build Status](https://travis-ci.org/Dynamic-Build/lua-promises.svg)](https://travis-ci.org/Dynamic-Build/lua-promises)
 
 [A+ promises](https://promisesaplus.com/) in Lua
 
