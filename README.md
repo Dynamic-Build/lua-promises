@@ -1,5 +1,7 @@
 # lua-promises
 
+[ ![Codeship Status for Dynamic-Build/lua-promises](https://app.codeship.com/projects/44b838f0-0c3b-0136-bf52-5e2865712995/status?branch=master)](https://app.codeship.com/projects/281960)
+
 [A+ promises](https://promisesaplus.com/) in Lua!
 
 ## Why would I need promises?
