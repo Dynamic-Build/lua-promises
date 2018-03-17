@@ -1,7 +1,5 @@
 # lua-promises
 
-[![Build Status](https://travis-ci.org/Dynamic-Build/lua-promises.svg?branch=master)](https://travis-ci.org/Dynamic-Build/lua-promises)
-
 [A+ promises](https://promisesaplus.com/) in Lua!
 
 ## Why would I need promises?
