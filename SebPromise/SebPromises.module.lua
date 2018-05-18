@@ -10,9 +10,10 @@ local promises = {
 				local function con(...)
 					be:Fire(...)
 				end
-				if not pcall(function()Signal:Disconnect(con)Signal:Connect(con)end) then break end
+				if not pcall(function()conn = Signal:Connect(con)end) then break end
 			end
 			pstorage[Name] = nil
+			conn:Disconnect()
 		end)
 		return
 		{
@@ -37,8 +38,9 @@ local promises = {
 					be:Fire(...)
 					error()
 				end
-				if not pcall(function()Signal:Disconnect(con)Signal:Connect(con)end) then break end
+				if not pcall(function()conn2 = Signal:Connect(con)end) then break end
 			end
+			conn2:Disconnect()
 			pstorage[Name] = nil
 		end)
 		return
